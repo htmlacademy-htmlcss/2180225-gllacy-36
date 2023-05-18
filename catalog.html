@@ -133,17 +133,18 @@
     </nav>
   </div>
 </header>
+<main class="main-inner">
 <section class="breadcrumbs">
   <h2 class="breadcrumbs-title">Сливочное мороженое</h2>
   <ul class="breadcrumbs-list">
     <li class="breadcrumbs-item">
-      <a class="breadcrumbs-link" href="index.html">Главная</a>
+      <a class="breadcrumbs-link" href="catalog.html">Главная</a>
     </li>
     <li class="breadcrumbs-item">
       <img class="breadcrumbs-union" href="./images/union-bred.svg" width="7" height="6" alt="скобки">
     </li>
     <li class="breadcrumbs-item">
-      <a class="breadcrumbs-link breadcrumbs-link-current" href="catalog.html">Каталог</a>
+      <a class="breadcrumbs-link breadcrumbs-link-current" href="index.html">Каталог</a>
     </li>
     <li class="breadcrumbs-item">
       <img class="breadcrumbs-union" href="./images/union-bred.svg" width="7" height="6" alt="скобки">
@@ -153,8 +154,176 @@
     </li>
   </ul>
 </section>
-<main class="main-inner">
+<section class="sorting">
+<h2 class="sorting-products">Сортировка:</h2>
+<select name="select-sorting">
+  <option value="by-popularity">по популярности</option>
+  </select>
+<section class="price">
+  <h2 class="visually-hidden">Сортировка по цене</h2>
+  <span class="price-product">Цена: 100 ₽ – 500 ₽</span>
+  <img class="centr-line" src="./images/Линия центр.svg" width="56" alt="Линия центр">
+   <img class="main-line" src="./images/Линия основная.png" width="164" alt="Линия основная">
+  <button class="slider-button slider-next" type="button"><img class="circle-1" src="./images/Круг 1.svg" width="16" height="16" alt="Круг"></button>
+  <button class="slider-button slider-prev" type="button"><img class="circle-2" src="./images/круг2.svg" width="16" height="16" alt="Круг"></button>
+</section>
+<section class="fat-content">
+  <h2 class="fat">Жирность:</h2>
+<input type="radio" name="checkbox" aria-label="0%">0%</label>
+<input type="radio" name="checkbox" aria-label="до 10%" checked>до 10%</label>
+<input type="radio" name="checkbox" aria-label="до 30%">до 30%</label>
+<input type="radio" name="checkbox" aria-label="выше 30%">выше 30% </label>
+</section>
+<section class="fillers">
+  <h2 class="fillers-cream">Наполнители:</h2>
+  <ul class="fillers-list">
+    <li class="fillers-item">
+      <input type="checkbox" aria-label="chocolate">шоколадные</label>
+    </li>
+    <li class="fillers-item">
+      <input type="checkbox" aria-label="sugar-sprinkles">сахарные посыпки</label>
+    </li>
+    <li class="fillers-item">
+      <input type="checkbox" aria-label="fruits">фрукты</label>
+    </li>
+    <li class="fillers-item">
+      <input type="checkbox" aria-label="syrups">сиропы</label>
+    </li>
+    <li class="fillers-item">
+      <input type="checkbox" aria-label="jams">джемы</label>
+      </li>
+  </ul>
+  <a class="navigation-link" href="#">
+  <button class="button-apply" type="submit">Применить</button>
+  </a>
+</section>
 
+<section class="products-cards">
+  <h2 class="visually-hidden">Карточки товара</h2>
+<figure>
+  <figcaption>Малинка</figcaption>
+  <p class="description-title">Сливочное мороженое с малиновым джемом</p>
+  <a class="cart-link" href="#">
+    <b class="price">310 ₽/кг</b>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
+  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
+  clip-rule="evenodd"/></svg>
+  </a>
+</figure>
+<figure>
+  <figcaption>Фисташка</figcaption>
+  <p class="description-title">Фисташковый пломбир с кусочками шоколада</p>
+  <a class="cart-link" href="#">
+    <b class="price">340 ₽/кг</b>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
+  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
+  clip-rule="evenodd"/></svg>
+  </a>
+</figure>
+<figure>
+  <figcaption>Черника</figcaption>
+  <p class="description-title">Крем-брюле
+с черничным джемом</p>
+  <a class="cart-link" href="#">
+    <b class="price">330 ₽/кг</b>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
+  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
+  clip-rule="evenodd"/></svg>
+  </a>
+</figure>
+<figure>
+  <figcaption>Бабл-гам</figcaption>
+  <p class="description-title">Ванильный пломбир
+со сладкой посыпкой</p>
+  <a class="cart-link" href="#">
+    <b class="price">320 ₽/кг</b>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
+  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
+  clip-rule="evenodd"/></svg>
+  </a>
+  <figure>
+  <figcaption>Ежевика</figcaption>
+  <p class="description-title">Сливочное мороженое с ежевичным джемом</p>
+  <a class="cart-link" href="#">
+    <b class="price">330 ₽/кг</b>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
+  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
+  clip-rule="evenodd"/></svg>
+  </a>
+</figure>
+<figure>
+  <figcaption>Банан</figcaption>
+  <p class="description-title">Сливочный пломбир
+с банановым вкусом</p>
+  <a class="cart-link" href="#">
+    <b class="price">340 ₽/кг</b>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
+  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
+  clip-rule="evenodd"/></svg>
+  </a>
+</figure>
+<figure>
+  <figcaption>Шоколадка</figcaption>
+  <p class="description-title">Классический шоколадный пломбир</p>
+  <a class="cart-link" href="#">
+    <b class="price">270 ₽/кг</b>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
+  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
+  clip-rule="evenodd"/></svg>
+  </a>
+</figure>
+<section>
+  <figcaption>Клубничка</figcaption>
+  <p class="description-title">Сливочный пломбир
+с клубничным вкусом</p>
+  <a class="cart-link" href="#">
+    <b class="price">300 ₽/кг</b>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
+  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
+  clip-rule="evenodd"/></svg>
+  </a>
+<figure>
+  <figcaption>Лимон</figcaption>
+  <p class="description-title">Освежающий лимонный сорбет</p>
+  <a class="cart-link" href="#">
+    <b class="price">310 ₽/кг</b>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
+  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
+  clip-rule="evenodd"/></svg>
+  </a>
+</figure>
+<figure>
+  <figcaption>Ментол</figcaption>
+  <p class="description-title">Сливочный пломбир
+с ментоловым сиропом</p>
+  <a class="cart-link" href="#">
+    <b class="price">320 ₽/кг</b>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
+  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
+  clip-rule="evenodd"/></svg>
+  </a>
+</figure>
+<figure>
+  <figcaption>Орешек</figcaption>
+  <p class="description-title">Фисташковый пломбир с шоколадным сиропом</p>
+  <a class="cart-link" href="#">
+    <b class="price">360 ₽/кг</b>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
+  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
+  clip-rule="evenodd"/></svg>
+  </a>
+</figure>
+<figure>
+  <figcaption>Крем-брюле</figcaption>
+  <p class="description-title">Классическое крем-брюле </p>
+  <a class="cart-link" href="#">
+    <b class="price">280 ₽/кг</b>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
+  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
+  clip-rule="evenodd"/></svg>
+  </a>
+</figure>
+</section>
 </main>
 
 
