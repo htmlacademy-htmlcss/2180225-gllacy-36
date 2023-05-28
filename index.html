@@ -6,18 +6,17 @@
      <title>Магазин "Глейси"</title>
      <link rel="stylesheet" href="./styles/styles.css">
     </head>
-    <body class="page-body">
-     <div class="page-container">
-       <header class="page-header">
-        <a href="#" class="navigation-logo">
+    <body class="page-container">
+      <header class="page-header">
+        <a href="httrs://htnlacademy.ru/" class="navigation-logo">
          <img src="./images/Лого-page.svg" width="137" height="56" alt="Логотип магазина Глейси">
         </a>
        <nav class="navigation-menu">
-       <div class="container-navigation-menu">
-        <ul class="navigation-list">
-         <li class="navigation-item catalog-item">
-          <a class="navigation-link catalog" href="catalog.html">
-          Каталог</a>
+        <div class="container-navigation">
+         <ul class="navigation-menu-list">
+          <li class="navigation-item catalog-item">
+           <a class="navigation-link catalog" href="catalog.html">
+            Каталог</a>
 
           <!-- <div class="popover-catalog popover-open">
                  <section class="popover-now">
@@ -52,16 +51,17 @@
         </ul>
         <ul class="navigation-list navigation-user-menu">
          <li class="navigation-user-item">
-            <a class="navigation-link contacts-phone" href="#">+7 800 555-86-28</a>
+            <a class="navigation-link contacts-phone-button" href="#">+7 800 555-86-28</a>
          </li>
          <li class="navigation-user-item">
-       <div class="search">
-        <a class="search-button" href="#">
-         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14"  width="13" height="13"><path fill="#2D3440" fill-rule="evenodd"
-         d="M1.66 6.19a4.67 4.67 0 1 1 9.34 0 4.67 4.67 0 0 1-9.34 0Zm8.42 4.69a6 6 0 1 1 .94-.94l2.45 2.44a.67.67 0 1 1-.94.95l-2.45-2.45Z"
-          clip-rule="evenodd"/></svg>
+         <div class="search">
+          <a class="navigation-link search-button" href="#">
+           <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14"  width="13" height="13"><path fill="#2D3440" fill-rule="evenodd"
+            d="M1.66 6.19a4.67 4.67 0 1 1 9.34 0 4.67 4.67 0 0 1-9.34 0Zm8.42 4.69a6 6 0 1 1 .94-.94l2.45 2.44a.67.67 0 1 1-.94.95l-2.45-2.45Z"
+            clip-rule="evenodd"/></svg>
+         </a>
           <span class="visually-hidden">Поиск по сайту</span>
-        </a>
+
     <!-- <div class="popover-search popover-open">
             <section class="popover-search-content">
              <h2 class="visually-hidden">Поиск по сайту</h2>
@@ -70,111 +70,131 @@
                 name="navigation-search" id="navigation-search" required>
             </section>
          </div> -->
-       </div>
+         </div>
          </li>
-          <li class="navigation-item">
-            <a class="navigation-link login-button" href="#">
-             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+         <li class="navigation-item login">
+          <a class="navigation-link login-button" href="#">
+            <svg class="login" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
              <path fill="#2D3440" fill-rule="evenodd" d="M9 1.7c0-.4.3-.7.7-.7h2.6a2 2 0 0 1 2 2v9.3a2 2 0 0 1-2 2H9.7a.7.7 0 1 1 0-1.3h2.6a.7.7 0 0 0 .7-.7V3a.7.7 0 0 0-.7-.7H9.7a.7.7 0 0 1-.7-.6ZM5.9 3.9c.2-.3.6-.3.9 0l3.3 3.3a.7.7 0 0 1 .2.2.7.7 0 0 1-.2.7l-3.3 3.4a.7.7 0 1 1-1-1l2.3-2.2H1.7a.7.7 0 1 1 0-1.3H8L5.9 4.8a.7.7 0 0 1 0-1Z"
              clip-rule="evenodd"/></svg>
              Вход
-           </a>
-            <span class="visually-hidden">Кнопка входа</span>
+          </a>
+           <span class="visually-hidden">Кнопка входа</span>
            <!-- <div class="popover-personal popover-open">
-                <section class="popover-account-content">
-                  <h2 class="personal-account">Личный кабинет</h2>
-                 <form class="appointment-form" action="https://echo.htmlacademy.ru/"
-                   method="post">
-                   <p class="appointment-form-email">
-                   <label for="email"></label>
-                   <input class="email-field" type="email"
-                   name="email" placeholder="email@example.com"
-                    id="email" required></p>
-                   <p class="appointment-form-password">
-                   <label for="password-field"></label>
-                   <input class="field" type="password"
-                   name="password-field"  placeholder="......"
-                   id="password-field" required></p>
-                    <button class="button-enter-button" type="submit">Войти</button>
-                 </form>
-                   <a class="navigation-link" href="#">
-                    Забыли пароль?</a>
-                   <a class="navigation-link" href="#">
-                    Регистрация</a>
+                 <section class="popover-account-content">
+                   <h2 class="personal-account">Личный кабинет</h2>
+                    <form class="appointment-form" action="https://echo.htmlacademy.ru/"
+                     method="post">
+                     <p class="appointment-form-email">
+                      <label for="email"></label>
+                      <input class="email-field" type="email"
+                       name="email" placeholder="email@example.com"
+                      id="email" required></p>
+                     <p class="appointment-form-password">
+                     <label for="password-field"></label>
+                      <input class="field" type="password"
+                       name="password-field"  placeholder="......"
+                       id="password-field" required></p>
+                      <button class="button-enter-button" type="submit">Войти</button>
+                   </form>
+                    <a class="navigation-link" href="#">
+                     Забыли пароль?</a>
+                    <a class="navigation-link" href="#">
+                     Регистрация</a>
                </div> -->
-          </li>
+           </li>
 
            <li class="navigation-item">
-            <a class="navigation-link" href="#">
-             <button class="button-counter" type="submit">
-              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" fill="none" viewBox="0 0 15 14"><path fill="#2D3440" fill-rule="evenodd"
+            <a class="navigation-link counter" href="#">
+              <svg class="counter-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="14" fill="none" viewBox="0 0 15 14"><path fill="#2D3440" fill-rule="evenodd"
+               d="M.5.77c0-.36.3-.66.67-.66h2.31c.32 0 .6.22.66.53l.47 2.37h9.3a.67.67 0 0 1 .66.79l-.93 4.86a1.83 1.83 0 0 1-1.82 1.47H6.2a1.83 1.83 0 0 1-1.82-1.47l-.96-4.83-.01-.05-.47-2.
+               34H1.17A.67.67 0 0 1 .5.77Zm5.3 10.35a1.25 1.25 0 1 0 0 2.49 1.25 1.25 0 0 0 0-2.5Zm6.38 0a1.25 1.25 0 1 0 0 2.49 1.25 1.25 0 0 0 0-2.5Z" clip-rule="evenodd"/></svg>
+              <span class="two-products">2 товара</span>
+              <span class="visually-hidden">Ваша корзина пока пуста</span>
+            </a>
+
+              <!-- <div class="popover-cart popover-open">
+                <section class="popover-arrange">
+                 <h2 class="cart">Корзина</h2>
+                  <form class="order-checkout" action="https://echo.htmlacademy.ru/" method="post">
+                   <ul class="choice-list">
+                    <li class="choice-item">
+                     <a class="navigation-link" href="#"><img class="Malinka" src="./images/Малинка.jpg" width="46" height="46" alt="Malinka">
+                      Малинка
+                      <span>1 кг х 310 ₽</span>
+                     </a>
+                      <b>310 ₽</b>
+                   </li>
+                   <li class="choice-item">
+                     <a class="navigation-link" href="#"><img class="Malinka" src="./images/Бабл-гам.jpg" width="46" height="46" alt="Malinka">
+                       Бабл-гам
+                      <span>1,5 кг х 320 ₽</span>
+                     </a>
+                      <b class="price">480 ₽</b>
+                   </li>
+                   <li class="place-order-item">
+                    <a class="place-order-link" href="#">
+                     <button class="button-arrange" type="submit">Оформить заказ</button>
+                   </a>
+                    <b class="price">Итого: 790 ₽</b>
+                 </form>
+                  </div>
+                 <div class="popover-cart cart-empty">
+                  <p class="popover-text">Ваша корзина пока пуста</p>
+             </div>
+            </div>
+            </li>
+
+           -->
+
+           <!-- <li class="navigation-item">
+            <a class="navigation-link counter" href="#">
+
+              <svg class="counter-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="14" fill="none" viewBox="0 0 15 14"><path fill="#2D3440" fill-rule="evenodd"
               d="M.5.77c0-.36.3-.66.67-.66h2.31c.32 0 .6.22.66.53l.47 2.37h9.3a.67.67 0 0 1 .66.79l-.93 4.86a1.83 1.83 0 0 1-1.82 1.47H6.2a1.83 1.83 0 0 1-1.82-1.47l-.96-4.83-.01-.05-.47-2.
               34H1.17A.67.67 0 0 1 .5.77Zm5.3 10.35a1.25 1.25 0 1 0 0 2.49 1.25 1.25 0 0 0 0-2.5Zm6.38 0a1.25 1.25 0 1 0 0 2.49 1.25 1.25 0 0 0 0-2.5Z" clip-rule="evenodd"/></svg>
               2 товара
-             </button>
-            </a>
-              <!-- <div class="popover-cart popover-open">
-            <section class="popover-arrange">
-             <h2 class="cart">Корзина</h2>
-              <ul class="choice-list">
-               <li class="choice-item">
-                 <a class="navigation-link" href="#"><img class="Malinka" src="./images/Малинка.jpg" width="46" height="46" alt="Malinka">
-                  Малинка
-                  <span>1 кг х 310 ₽</span>
-                 </a>
-                  <b>310 ₽</b>
-               </li>
-               <li class="choice-item">
-                <a class="navigation-link" href="#"><img class="Malinka" src="./images/Бабл-гам.jpg" width="46" height="46" alt="Malinka">
-                 Бабл-гам
-                  <span>1,5 кг х 320 ₽</span>
-                </a>
-                  <b class="price">480 ₽</b>
-               </li>
-               <li class="place-order-item">
-                <a class="place-order-link" href="#">
-                 <button class="button-arrange" type="submit">Оформить заказ</button>
-                </a>
-                 <b class="price">Итого: 790 ₽</b>
-           </div>
-           <div class="popover-cart cart-empty">
-            <p class="popover-text">Ваша корзина пока пуста</p>
-           </div>
-               </li>
-              </ul>
-          </div> -->
-           </li>
+
+            </a></li>
+              <li class="navigation-item">
+               <a class="navigation-link counter" href="#">
+
+                <svg class="counter-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="14" fill="none" viewBox="0 0 15 14"><path fill="#2D3440" fill-rule="evenodd"
+                 d="M.5.77c0-.36.3-.66.67-.66h2.31c.32 0 .6.22.66.53l.47 2.37h9.3a.67.67 0 0 1 .66.79l-.93 4.86a1.83 1.83 0 0 1-1.82 1.47H6.2a1.83 1.83 0 0 1-1.82-1.47l-.96-4.83-.01-.05-.47-2.
+                 34H1.17A.67.67 0 0 1 .5.77Zm5.3 10.35a1.25 1.25 0 1 0 0 2.49 1.25 1.25 0 0 0 0-2.5Zm6.38 0a1.25 1.25 0 1 0 0 2.49 1.25 1.25 0 0 0 0-2.5Z" clip-rule="evenodd"/></svg>
+                 100 товаров
+
+               </a>
+              </li>
+            </div> -->
+          </li>
         </ul>
+       </div>
+     </nav>
       </div>
-       </nav>
-     </div>
-      </header>
+   </header>
 
   <main class="main-index">
-   <div class="main-index-wrapper">
-     <h1 class="visually-hidden">Магазин "Глейси"</h1>
+  <div class="main-container">
+    <h1 class="visually-hidden">Магазин "Глейси"</h1>
      <section class="installation">
       <h2 class="visually-hidden">Инсталляция</h2>
-      <div class="slider-ice-cream">
-        <button class="slider-button-arrow previous-button">
-          <span class="visually-hidden">Предыдущий слайд</span>
-          </button>
-        <button class="slider-button-arrow next-button">
-          <span class="visually-hidden">Слудующий слайд</span>
-        </button>
-        <ul class="slider-installation-list">
+       <div class="slider-ice-cream">
+         <ul class="slider-installation-list">
           <li class="slider-installation-item-current">
            <div class="wrapper-strawberry-cream">
-            <h3 class="strawberry-ico-cream">Нежный пломбир
+            <h3 class="strawberry-title">Нежный пломбир<br>
              с клубничным джемом</h3>
-              <p class="installation-description">Натуральное мороженое из свежих сливок
-              и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи.
+              <p class="installation-description">Натуральное мороженое из свежих сливок<br>
+              и молока с вкуснейшим клубничным джемом –<br> это идеальный десерт для всей семьи.
               </p>
-             <a class="slider-order-link link-spinner-button" href="#">
-              <img class="slider-strawberry-jam-1" src="./images/Мороженко.jpg" alt="with-strawberry-jam" width="327"
-              height="507">
-             </a>
-           </div>
+              <div class="installation-product">
+               <a class="slider-order-link link-spinner-button" href="#">
+                 <img class="slider-strawberry-jam-1" src="./images/Мороженко.jpg" alt="with-strawberry-jam" width="327"
+                 height="507">
+               </a>
+              </div>
+              <a class="button-order-link" href="#" type="submit">Заказать</a>
           </li>
           <li class="slider-installation-item-current">
             <div class="banana-cream">
@@ -191,7 +211,7 @@
             <div class="wrapper-marshmallows">
               <h3 class="marshmallows-3">Карамельный пломбир
                с маршмеллоу</h3>
-              <p class="exposition-description">Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов.
+              <p class="installation-description">Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов.
              </p>
              <a class="slider-order-link link-spinner-button" href="#">
                <img class="slider-with-marshmallows-3" src="./images/Слайдшоу1_next.jpg" alt="with-marshmallows" width="327"
@@ -200,21 +220,18 @@
            </div>
           </li>
         </ul>
-        </div>
-        <div class="slider-button">
-          <button class="slider-button slider-prev" type="button">
-           <span class="visually-hidden">Следующее фото</span>
-          </button>
 
-          <button class="slider-button slider-next" type="button">
-           <span class="visually-hidden">Предыдущее фото</span>
-          </button>
-        </div>
+       <div class="slider-button">
+        <button class="slider-button slider-prev" type="button">
+          <span class="visually-hidden">Следующее фото</span>
+         </button>
 
-        <div class="button-wrapper">
+         <button class="slider-button slider-next" type="button">
+          <span class="visually-hidden">Предыдущее фото</span>
+         </button>
+       </div>
 
-         <button class="button-order" type="submit">Заказать</button>
-        </div>
+
         <div class="slider-pagination-wrapper">
          <ol class="slider-pagination">
           <li class="slider-pagination-item">
@@ -233,7 +250,7 @@
           </button>
           </li>
          </ol>
-        </div>
+     </div>
 
      <div class="social-network">
        <ul class="social-list">
@@ -393,7 +410,7 @@
        </div>
       </section>
       <section class="newsletter">
-        <div class="newsletter-wrapper">
+      <div class="newsletter-wrapper">
           <h2 class="visually-hidden">Новостная рассылка</h2>
             <p class="description">Подпишитесь на нашу сладкую рассылку и будьте всегда
              в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)
@@ -407,7 +424,7 @@
             <button class="button-arrange" type="submit">Отправить</button>
         </div>
       </section>
-   </div>
+      </div>
 <div class="delivery-wrapper">
 <img class="delivery-img" src="./images/Доставка.jpg" width="1170" height="534" alt="Мороженое">
 <div class="wrapper">
