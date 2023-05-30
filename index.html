@@ -15,14 +15,16 @@
         <div class="container-navigation">
          <ul class="navigation-menu-list">
           <li class="navigation-item catalog-item">
-           <a class="navigation-link catalog" href="catalog.html">
+           <a class="navigation-link catalog" href="catalog.html" type="checkbox" checked>
             Каталог</a>
 
-          <!-- <div class="popover-catalog popover-open">
+          <div class="popover-catalog popover-open">
                  <section class="popover-now">
                   <h2 class="visually-hidden">Новые продукты</h2>
-                   <a class="navigation-link catalog" href="catalog.html">
+
+                   <a class="catalog-menu-link catalog-title" href="catalog.html">
                    Новинки</a>
+                   <div class="new-wrapper">
                      <ul class="catalog-list">
                       <li class="catalog-item">
                        <a class="catalog-menu-link" href="#">Сливочное</a>
@@ -37,8 +39,9 @@
                       <a class="catalog-menu-link" href="#">Мелорин</a>
                      </li>
                     </ul>
+                    </div>
                 </section>
-              </div> -->
+              </div>
           </li>
           <li class="navigation-item">
           <a class="navigation-link" href="fag.html">
@@ -57,11 +60,10 @@
             <div class="search">
              <a class="navigation-link search-button" href="#" type="submit">
                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14"  width="13" height="13"><path fill="#2D3440" fill-rule="evenodd"
-               d="M1.66 6.19a4.67 4.67 0 1 1 9.34 0 4.67 4.67 0 0 1-9.34 0Zm8.42 4.69a6 6 0 1 1 .94-.94l2.45 2.44a.67.67 0 1 1-.94.95l-2.45-2.45Z"
-               clip-rule="evenodd"/></svg>
+                 d="M1.66 6.19a4.67 4.67 0 1 1 9.34 0 4.67 4.67 0 0 1-9.34 0Zm8.42 4.69a6 6 0 1 1 .94-.94l2.45 2.44a.67.67 0 1 1-.94.95l-2.45-2.45Z"
+                 clip-rule="evenodd"/></svg>
+                <span class="visually-hidden">Поиск по сайту</span>
              </a>
-              <span class="visually-hidden">Поиск по сайту</span>
-
              <!-- <div class="popover-search popover-open">
             <section class="popover-search-content">
              <h2 class="visually-hidden">Поиск по сайту</h2>
@@ -179,71 +181,76 @@
       <div class="installation">
         <h2 class="visually-hidden">Инсталляция</h2>
          <div class="installation-wrapper">
-           <ul class="slider-installation-list">
-              <li class="slider-installation-item-current">
-                <div class="slider-card-1">
+
+
                   <div class="slider-text">
-                 <h3 class="slider-title">Нежный пломбир<br>
-                  с клубничным джемом</h3>
-                  <p class="installation-description">Натуральное мороженое из свежих сливок<br>
-                    и молока с вкуснейшим клубничным джемом –<br> это идеальный десерт для всей семьи.
-                  </p>
-                  <a class="button-order-link" href="#" type="submit">Заказать</a>
+                   <span class="slider-title">Нежный пломбир<br>
+                     с клубничным джемом</span>
+                     <p class="installation-description">Натуральное мороженое из свежих сливок<br>
+                       и молока с вкуснейшим клубничным джемом –<br> это идеальный десерт для всей семьи.
+                     </p>
+                       <a class="button-order-link" href="#" type="submit">Заказать</a>
                   </div>
-                   <a class="slider-order-link link-spinner-button" href="#" type="submit">
-                    <div class="main-image strawberry">
-                     <img class="img-strawberry-jam-1" src="./images/Мороженко.svg" alt="with-strawberry-jam" width="327"
-                      height="507">
-                      </div>
-                      </a>
-                       <div class="slider-wrapper">
-          <ul class="slider-list">
-            <li class="slider-button-item">
-              <button class="slider-button slider-prev" type="button">
-                <span class="visually-hidden">Следующее фото</span>
-              </button>
-             </li>
-             <li class="slider-button-item">
-               <button class="slider-button slider-next" type="button">
-                <span class="visually-hidden">Предыдущее фото</span>
-               </button>
-             </li>
-           </ul>
-         </div>
-
-               </li>
-
-                <li class="slider-installation-item-current">
-                   <div class="slider-card-2">
-                    <h3 class="slider-title">Сливочное мороженое со вкусом банана</h3>
-                      <p class="installation-description">Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и наслаждение даже в самый жаркий летний день.
-                       </p>
-                       <a class="slider-order-link link-spinner-button" href="#">
-                        <div class="main-image banana">
-                          <img class="img-banana-flavor-2" src="./images/Слайдшоу_next.jpg" alt="banana-flavor" width="327"
+                  <div class="slider-card-1">
+                    <article class="main-image strawberry">
+                      <a class="slider-order-link link-spinner-button" href="#" type="submit">
+                        <img class="img-strawberry-jam-1" src="./images/Мороженко.svg" alt="with-strawberry-jam" width="327"
                           height="507">
+                      </a>
+                    </article>
+                  </div>
+                   <div class="slider-wrapper">
+                    <ul class="slider-list">
+                     <li class="slider-button-item">
+
+                          <button class="slider-button slider-prev" type="button">
+                            <span class="visually-hidden">Следующее фото</span>
+                         </button>
+                      </li>
+                      <li class="slider-button-item">
+                         <button class="slider-button slider-next" type="button">
+                             <span class="visually-hidden">Предыдущее фото</span>
+                          </button>
+                      </li>
+                    </ul>
+                    </div>
+                    <ul class="slider-installation-list">
+                      <li class="slider-installation-item-current">
+                        <div class="slider-card-2">
+                          <span class="slider-title">Сливочное мороженое со вкусом банана</span>
+                           <p class="installation-description">Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и наслаждение даже в самый жаркий летний день.
+                           </p>
+                         </div>
+
+                         <div class="main-image banana">
+                            <a class="slider-order-link link-spinner-button" href="#">
+                               <img class="img-banana-flavor-2" src="./images/Слайдшоу_next.jpg" alt="banana-flavor" width="327"
+                                 height="507">
+                              </a>
+
+                            <a class="button-order-link" href="#" type="submit">Заказать</a>
+                         </div>
+                      </li>
+
+                      <li class="slider-installation-item-current">
+                        <div class="slider-card-3">
+                           <h3 class="slider-title">Карамельный пломбир
+                           с маршмеллоу</h3>
+                          <p class="installation-description">Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов.
+                          </p>
                         </div>
-                       </a>
-                        <a class="button-order-link" href="#" type="submit">Заказать</a>
+
+                         <div class="main-image marshmallows">
+                           <a class="slider-order-link link-spinner-button" href="#">
+                             <img class="img-with-marshmallows-3" src="./images/Слайдшоу1_next.jpg" alt="with-marshmallows" width="327"
+                               height="507">
+                           </a>
+
+                           <a class="button-order-link" href="#" type="submit">Заказать</a>
                         </div>
-                 </li>
-                 <li class="slider-installation-item-current">
-                   <div class="slider-card-3">
-                    <h3 class="slider-title">Карамельный пломбир
-                      с маршмеллоу</h3>
-                       <p class="installation-description">Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех возрастов.
-                       </p>
-                       <a class="slider-order-link link-spinner-button" href="#">
-                      <div class="main-image marshmallows">
-                       <img class="img-with-marshmallows-3" src="./images/Слайдшоу1_next.jpg" alt="with-marshmallows" width="327"
-                       height="507">
-                      </div>
-                    </a>
-                     <a class="button-order-link" href="#" type="submit">Заказать</a>
-                     </div>
-                 </li>
-             </ul>
-        </div>
+                      </li>
+                  </ul>
+
 
 
          <div class="slider-pagination-wrapper">
