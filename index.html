@@ -9,15 +9,14 @@
 
       <body class="page-container ">
           <div class="page-content">
-            <header class="page-header">
-              <h1 class="visually-hidden">Магазин "Глейси"</h1>
-              <nav class="header-navigation">
+             <header class="page-header">
+                <h1 class="visually-hidden">Магазин "Глейси"</h1>
 
-                <a class="header-link" href="#">
-                  <img class="header-logo" src="./images/logo-header.png " width="137" height="56"
-                    alt="Логотип магазина Глейси.">
-                </a>
-
+                <nav class="header-navigation">
+                   <a class="header-link" href="#">
+                      <img class="header-logo" src="./images/logo-header.png " width="137" height="56"
+                         alt="Логотип магазина Глейси.">
+                  </a>
                  <ul class="navigation-menu-list">
                   <li class="navigation-item catalog-item">
                     <a class="navigation-link navigation-link-catalog" href="catalog.html">Каталог
@@ -43,28 +42,28 @@
                       </ul>
                    </div>
                   </li>
-                  <li class="navigation-list-item">
+                  <li class="navigation-item">
                     <a class="navigation-link" href="#">Доставка и оплата</a>
                   </li>
-                  <li class="navigation-list-item">
+                  <li class="navigation-item">
                     <a class="navigation-link" href="#">О компании</a>
                   </li>
                 </ul>
-              </nav>
-              <nav class="navigation-user-menu">
+                </nav>
+                <nav class="navigation-user-menu">
                 <div class="phone-link-wrapper">
                   <a class="phone-link" href="tel:+78005558628">+7 800 555-86-28</a>
                 </div>
                 <ul class="navigation-user-list">
-                  <li class="navigation-user-item">
-                    <a class="navigation-user-link navigation-search-entry" href="#">
-                      <svg class="header-search-icon" width="14" height="14" aria-hidden="true" focusable="false"
-                        role="img" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                          d="M1.663 6.188a4.667 4.667 0 1 1 8.028 3.237.674.674 0 0 0-.124.124 4.667 4.667 0 0 1-7.904-3.361Zm8.412 4.688a6 6 0 1 1 .943-.943l2.45 2.45a.667.667 0 1 1-.943.943l-2.45-2.45Z" />
-                      </svg>
-                      <span class="visually-hidden">Поиск по сайту</span>
-                    </a>
+                    <li class="navigation-user-item">
+                       <a class="navigation-user-link navigation-search-entry" href="#">
+                           <svg class="header-search-icon" width="14" height="14" aria-hidden="true" focusable="false"
+                             role="img" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M1.663 6.188a4.667 4.667 0 1 1 8.028 3.237.674.674 0 0 0-.124.124 4.667 4.667 0 0 1-7.904-3.361Zm8.412 4.688a6 6 0 1 1 .943-.943l2.45 2.45a.667.667 0 1 1-.943.943l-2.45-2.45Z" />
+                           </svg>
+                             <span class="visually-hidden">Поиск по сайту</span>
+                         </a>
                     <div class="popover-search-wrapper popover-open">
                       <form class="popover-search-form" action="https://echo.htmlacademy.ru/" method="get">
 
@@ -77,39 +76,46 @@
                       </form>
                     </div>
                   </li>
-                  <li class="navigation-user-item login entry-popover">
+                  <li class="navigation-user-item entry-popover">
                     <a class="navigation-user-link navigation-user-entry" href="#">
                       <svg class="entry-icon" width="14" height="15" viewBox="0 0 14 15" fill="none"
                         xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="img">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                           d="M8 1.525c0-.369.298-.667.667-.667h2.666a2 2 0 0 1 2 2v9.333a2 2 0 0 1-2 2H8.667a.667.667 0 0 1 0-1.333h2.666A.667.667 0 0 0 12 12.19V2.858a.666.666 0 0 0-.667-.667H8.667A.667.667 0 0 1 8 1.525ZM4.862 3.72c.26-.26.682-.26.943 0l3.329 3.329a.673.673 0 0 1 .2.476.664.664 0 0 1-.2.476l-3.33 3.328a.667.667 0 1 1-.942-.943l2.195-2.195H.667a.667.667 0 1 1 0-1.333h6.39L4.862 4.663a.667.667 0 0 1 0-.943Z" />
                       </svg>
-                      <span class="header-entry-text">Кнопка входа</span>
-                    </a>
-                    <div class="popover-personal popover-open">
-                      <section class="popover-account-content">
-                        <h2 class="personal-account">Личный кабинет</h2>
-                        <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
-                          <div class="appointment-form-email auth-login-droup">
-                            <label for="auth-login" class="visually-hidden"></label>
-                            <input class="email-field input-field-state" type="email" id="auth-login"
-                              name="auth-login" placeholder="Введите логин" required>
-                          </div>
-                          <div class="field-group auth-password-group">
-                            <label for="auth-password" class="visually-hidden"></label>
-                            <input class="auth-form-field input-field-state" type="password" id="auth-password"
-                               name="auth-password" placeholder="Введите пароль" required>
-                          </div>
-                          <button class="popover-auth-button button" type="submit">Войти</button>
-                          <div class="form-register-wrapper">
-                            <a href="#" class="auth-form-recovery">Забыли пароль?</a>
-                            <a href="#" class="auth-form-register">Регистрация</a>
-                          </div>
-                        </form>
-                     </section>
-                    </div>
+                      <span class="header-entry-text">Вход</span>
+                     </a>
+                     <div class="popover-personal popover-open">
+                           <section class="popover-account-content">
+                             <div class="account-wrapper">
+                               <h2 class="personal-account">Личный кабинет</h2>
+                                <form class="entry-form" action="https://echo.htmlacademy.ru/" method="post">
+                                    <div class="registr-email">
+                                         <label for="entry-input" class="visually-hidden">Поле ввода имейла</label>
+                                            <input type="text" class="entry-input input-account" name="entry-email" id="entry-input"
+                                                placeholder="email@example.com" required>
+                                      </div>
+                                    <div class="registr-password">
+                                         <label for="entry-input" class="visually-hidden">Поле ввода пароля</label>
+                                            <input type="password" name="password" class="entry-input input-account" id="entry-input"
+                                              required>
+                                      </div>
+                                 </form>
+
+                              </div>
+
+                                    <div class="registr-wrapper">
+                                       <button class="entry-button button" type="submit">Войти</button>
+
+                                       <div class="entry-wrapper">
+                                       <a href="#" class="auth-recovery">Забыли пароль?</a>
+                                       <a href="#" class="auth-register">Регистрация</a>
+                                     </div>
+                             </div>
+                         </section>
+                       </div>
                   </li>
-                  <li class="-navigation-item cart-item">
+                  <li class="navigation-user-item cart-item">
                     <a class="navigation-user-link navigation-cart" href="#">
                       <svg class="cart-icon" width="15" height="14" viewBox="0 0 15 14" fill="none"
                         xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="img">
@@ -126,13 +132,14 @@
                           <ul class="cart-popover-list">
                             <li class="cart-popover-item">
                               <a href="#" class="cart-item-link">
-                                <img src="images/cart-raspberry-image.jpg" alt="Малиновое мороженое."
+                                <img src="./images/ball-cream.png" width="46" height="46" alt="Малиновое мороженое."
                                   class="cart-item-img">
                                 <div class="cart-caption-wrapper">
                                   <h3 class="cart-product-caption">Малинка
                                   </h3>
                                   <input type="hidden" id="product-cart" name="product" value="Мороженое малиновое">
                                   <span class="cart-product-quantity">1 кг х 310 ₽</span>
+
                                 </div>
                               </a>
                               <span class="cart-product-price">310 ₽</span>
@@ -142,7 +149,7 @@
                             </li>
                             <li class="cart-popover-item">
                               <a href="#" class="cart-item-link">
-                                <img class="cart-item-img" src="images/cart-bubble-gum-image.jpg"
+                                <img class="cart-item-img" src="./images/babl-gam.png" width="46" height="46"
                                   alt="Мороженое бабл-гам.">
                                 <div class="cart-caption-wrapper">
                                   <h3 class="cart-product-caption">Бабл-гам</h3>
@@ -152,7 +159,7 @@
                                 </div>
                               </a>
                               <span class="cart-product-price">480 ₽</span>
-                              <button class="cart-product-button" type="button">
+                              <button class="cart-product-button product-button" type="button">
                                 <span class="visually-hidden">Удалить товар из корзины.</span>
                               </button>
                             </li>
@@ -162,125 +169,121 @@
                             <span class="cart-total-price">Итого: 790 ₽</span>
                           </div>
                         </form>
-                        <div class="cart-popover-empty">Ваша корзина пока пуста</div>
+                        <div class="cart-popover-empty"Ваша корзина пока пуста>
+                        </div>
                       </div>
                     </div>
                   </li>
                 </ul>
 
-              </nav>
+                </nav>
             </header>
         <main class="main-index">
               <section class="welcome-slider">
-                <h2 class="visually-hidden">Демонстрация мороженого.</h2>
-                <div class="slider-screen">
-                  <div class="slider-buttons-wrapper">
-                    <button class="slider-button-arrow previous-button" type="button">
-                       <span class="visually-hidden">Предыдущий слайд</span>
-                         <!-- <svg width="7" height="12"  -->
-                           <svg width="40" height="38" fill="none" viewBox="0 0 40 38"><rect width="36" height="36" x="1.154" y="1" fill="#FCFCFC" fill-opacity=".3" rx="18"/><path fill="#FCFCFC" fill-rule="evenodd" d="M18.29 13.865a.665.665 0 0 0-.94.94l4.2 4.201-4.2 4.202a.665.665 0 0 0 .94.94l4.668-4.668.003-.003c.26-.26.26-.681 0-.94l-4.671-4.672Z" clip-rule="evenodd"/>
-                             <rect width="36" height="36" x="1.154" y="1" stroke="#FCFCFC" stroke-width="2" rx="18"/>
-                            </svg>
-                     </button>
-                      <button class="slider-button-arrow next-button" type="button">
-                          <svg  width="40" height="38" fill="none" viewBox="0 0 40 38"><rect width="36" height="36" x="38.846" y="37" fill="#FCFCFC" fill-opacity=".3" rx="18" transform="rotate(180 38.846 37)"/><path fill="#FCFCFC" fill-rule="evenodd" d="M21.71 24.135a.665.665 0 0 0 .94-.94l-4.2-4.201 4.2-4.202a.665.665 0 0 0-.94-.94l-4.668 4.668a.665.665 0 0 0-.003.943l4.671 4.672Z" clip-rule="evenodd"/>
-                             <rect width="36" height="36" x="38.846" y="37" stroke="#FCFCFC" stroke-width="2" rx="18" transform="rotate(180 38.846 37)"/></svg>
-                              <span class="visually-hidden">Следующий слайд</span>
-                       </button>
-                    <ul class="slider-screen-list">
-                      <li class="slider-screen-item slider-screen-item-current ">
-                        <div class="ice-cream-wrapper">
-                          <h3 class="ice-cream-caption">Нежный пломбир
-                            с&nbsp;клубничным джемом</h3>
-                          <p class="ice-cream-text">Натуральное мороженое из свежих сливок
-                            и&nbsp;молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи. </p>
-                          <a class="slider-order-link link " href="#">Заказать</a>
-                        </div>
-                        <div class="slider-img-wrapper">
-                          <a href="#" class="slider-img-link">
-                            <img class="slider-img slider-image-strawberry" src="/images/strawberri.png"
-                              width="328" height="507" alt="Клубничное мороженое.">
-                          </a>
-                        </div>
-                      </li>
-
-                      <li class="slider-screen-item">
-                        <div class="ice-cream-desc">
-                          <h3 class="ice-cream-caption">Сливочное мороженое со вкусом банана</h3>
-                          <p class="ice-cream-text">Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и
-                            наслаждение даже в самый жаркий летний день. </p>
-                          <a class="slider-order-link">Заказать</a>
-                        </div>
-                        <div class="slider-img-wrapper ">
-                          <a href="#" class="slider-img-link">
-                            <img class="slider-img slider-image-banana" src="./images/banana.png"
-                              width="328" height="507" alt="Банановое мороженое.">
-                          </a>
-                        </div>
-                      </li>
-
-                      <li class="slider-screen-item">
-                        <div class="ice-cream-desc">
-                          <h3 class="ice-cream-caption">Карамельный пломбир
-                            с маршмеллоу</h3>
-                          <p class="ice-cream-text">Необычный сладкий десерт с карамельным топпингом и кусочками зефира
-                            завоюет сердца сладкоежек всех возрастов. </p>
-                          <a class="slider-order-link">Заказать</a>
-                        </div>
-                        <div class="slider-img-wrapper">
-                          <a href="#" class="slider-img-link">
-                            <img class="slider-img slider-image-caramel" src="./images/caramel.png"
-                              width="328" height="507" alt="Карамельное мороженое.">
-                          </a>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div class="slider-dots-wrapper">
-                    <ol class="slider-dots-list">
-                      <li class="slider-dots-item">
-                        <button class="slider-dots-button slider-dots-current">
-                          <span class="visually-hidden">Первый слайд</span>
-                        </button>
-                      </li>
-
-                      <li class="slider-dots-item">
-                        <button class="slider-dots-button">
-                          <span class="visually-hidden">Второй слайд</span>
-                        </button>
-                      </li>
-
-                      <li class="slider-dots-item">
-                        <button class="slider-dots-button">
-                          <span class="visually-hidden">Третий слайд</span>
-                        </button>
-                      </li>
-                    </ol>
-
-                    <div class="slider-socials-wrapper">
-                      <ul class="slider-socials">
-                        <li class="slider-socials-list">
-                          <a href="https://t.me/htmlacademy" class="footer-socials-link footer-socials-telegram">
-                            <span class="visually-hidden">Тelegram</span>
-                          </a>
-                        </li>
-                        <li class="socials-list">
-                          <a href="https://vk.com/htmlacademy" class="footer-socials-link footer-socials-vkontakte">
-                            <span class="visually-hidden">В контакте</span>
-                          </a>
-                        </li>
-                        <li class="socials-list">
-                          <a href="https://www.youtube.com/user/htmlacademyru"
-                            class="footer-socials-link footer-socials-youtube">
-                            <span class="visually-hidden">Youtube</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </section>
+                  <h2 class="visually-hidden">Инсталляция мороженого.</h2>
+                   <div class="slider-screen-list">
+                      <div class="slider-buttons-wrapper">
+                           <button class="slider-button-arrow previous-button" type="button">
+                              <span class="visually-hidden">Предыдущий слайд</span>
+                               <svg width="40" height="38" fill="none" viewBox="0 0 40 38"><rect width="36" height="36" x="1.154" y="1" fill="#FCFCFC" fill-opacity=".3" rx="18"/>
+                                 <path fill="#FCFCFC" fill-rule="evenodd" d="M18.29 13.865a.665.665 0 0 0-.94.94l4.2 4.201-4.2 4.202a.665.665 0 0 0 .94.94l4.668-4.668.003-.003c.26-.26.26-.681 0-.94l-4.671-4.672Z" clip-rule="evenodd"/>
+                                  <rect width="36" height="36" x="1.154" y="1" stroke="#FCFCFC" stroke-width="2" rx="18"/>
+                               </svg>
+                            </button>
+                             <button class="slider-button-arrow next-button" type="button">
+                                    <svg  width="40" height="38" fill="none" viewBox="0 0 40 38"><rect width="36" height="36" x="38.846" y="37" fill="#FCFCFC" fill-opacity=".3" rx="18" transform="rotate(180 38.846 37)"/>
+                                     <path fill="#FCFCFC" fill-rule="evenodd" d="M21.71 24.135a.665.665 0 0 0 .94-.94l-4.2-4.201 4.2-4.202a.665.665 0 0 0-.94-.94l-4.668 4.668a.665.665 0 0 0-.003.943l4.671 4.672Z" clip-rule="evenodd"/>
+                                     <rect width="36" height="36" x="38.846" y="37" stroke="#FCFCFC" stroke-width="2" rx="18" transform="rotate(180 38.846 37)"/></svg>
+                                      <span class="visually-hidden">Следующий слайд</span>
+                               </button>
+                          <ul class="slider-screen-list">
+                             <li class="slider-screen-item slider-screen-item-current ">
+                                <div class="ice-cream-wrapper">
+                                     <h3 class="ice-cream-caption">Нежный пломбир
+                                      с клубничным джемом</h3>
+                                      <p class="ice-cream-text">Натуральное мороженое из свежих сливок
+                                         и молока с вкуснейшим клубничным джемом – это идеальный десерт для всей семьи. </p>
+                                      <a class="slider-order-link link " href="#">Заказать</a>
+                                   </div>
+                                   <div class="slider-img-wrapper">
+                                      <a href="#" class="slider-img-link">
+                                         <img class="slider-img slider-image-strawberry" src="/images/strawberri.png"
+                                            width="328" height="507" alt="Клубничное мороженое.">
+                                      </a>
+                                    </div>
+                               </li>
+                              <li class="slider-screen-item">
+                                  <div class="ice-cream-desc">
+                                       <h3 class="ice-cream-caption">Сливочное мороженое со вкусом банана</h3>
+                                       <p class="ice-cream-text">Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и
+                                         наслаждение даже в самый жаркий летний день. </p>
+                                        <a class="slider-order-link">Заказать</a>
+                                     </div>
+                                   <div class="slider-img-wrapper ">
+                                     <a href="#" class="slider-img-link">
+                                         <img class="slider-img slider-image-banana" src="./images/banana.png"
+                                            width="328" height="507" alt="Банановое мороженое.">
+                                       </a>
+                                   </div>
+                               </li>
+                              <li class="slider-screen-item">
+                                 <div class="ice-cream-desc">
+                                     <h3 class="ice-cream-caption">Карамельный пломбир
+                                      с маршмеллоу</h3>
+                                     <p class="ice-cream-text">Необычный сладкий десерт с карамельным топпингом и кусочками зефира
+                                       завоюет сердца сладкоежек всех возрастов. </p>
+                                     <a class="slider-order-link">Заказать</a>
+                                   </div>
+                                  <div class="slider-img-wrapper">
+                                      <a href="#" class="slider-img-link">
+                                          <img class="slider-img slider-image-caramel" src="./images/caramel.png"
+                                            width="328" height="507" alt="Карамельное мороженое.">
+                                       </a>
+                                   </div>
+                                </li>
+                            </ul>
+                         </div>
+                         <div class="slider-dots-wrapper">
+                             <ol class="slider-dots-list">
+                                 <li class="slider-dots-item">
+                                   <button class="slider-dots-button slider-dots-current">
+                                     <span class="visually-hidden">Первый слайд</span>
+                                   </button>
+                                 </li>
+                                 <li class="slider-dots-item">
+                                   <button class="slider-dots-button">
+                                       <span class="visually-hidden">Второй слайд</span>
+                                     </button>
+                                 </li>
+                                 <li class="slider-dots-item">
+                                   <button class="slider-dots-button">
+                                     <span class="visually-hidden">Третий слайд</span>
+                                   </button>
+                                 </li>
+                               </ol>
+                           <div class="slider-socials-wrapper">
+                                <ul class="slider-socials">
+                                   <li class="slider-socials-list">
+                                       <a href="https://t.me/htmlacademy" class="footer-socials-link footer-socials-telegram">
+                                         <span class="visually-hidden">Тelegram</span>
+                                       </a>
+                                     </li>
+                                    <li class="socials-list">
+                                       <a href="https://vk.com/htmlacademy" class="footer-socials-link footer-socials-vkontakte">
+                                          <span class="visually-hidden">В контакте</span>
+                                       </a>
+                                     </li>
+                                    <li class="socials-list">
+                                       <a href="https://www.youtube.com/user/htmlacademyru"
+                                           class="footer-socials-link footer-socials-youtube">
+                                           <span class="visually-hidden">Youtube</span>
+                                        </a>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+                 </section>
 
               <section class="discount">
                  <h2 class="visually-hidden">Выгодное предложение</h2>
@@ -299,65 +302,43 @@
                        </div>
                </section>
 
-               <!-- <section class="">
-               <div class="">
-               <h2 class="visually-hidden"></h2>
-               <p class="">Попробуйте самые популярные вкусы нашего мороженого</p>
-                <div class="container-card">
-                 <figure>
-                 <figcaption>Малинка</figcaption>
-               <p class="description-title">Сливочное мороженое с малиновым джемом</p>
-               <a class="cart-link" href="#">
-               <b class="price">310 ₽/кг</b>
-               <button class="add-to-cart" type="button" aria-label="button-cart">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
-                  fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
-                  clip-rule="evenodd"/></svg>
-               </button>
-               </a>
-               </figure> -->
-
-              <section class="popular-tastes">
-                <h2 class=visually-hidden>Популярные вкусы</h2>
-                <p class="popular-title-tastes slogan">Попробуйте самые популярные вкусы нашего мороженого
-                  </p>
-                  <div class="popular-wrapper">
-                     <ul class="products-list">
-                       <div class="popular-item-wrapper">
-                         <li class="products-list-item">
-                            <a href="#" class="products-item-link">
-                                <div class="product-img-wrapper">
-                                   <img class="product-item-img" src="./images/ball-cream.png" width="168" height="168"
+              <section class="popular">
+                <h2 class=visually-hidden>Популярные продукты</h2>
+                 <div class="popular-wrapper">
+                    <p class="popular-title">Попробуйте самые популярные вкусы нашего мороженого
+                    </p>
+                    <ul class="popular-list">
+                       <li class="popular-list-item">
+                          <a href="#" class="popular-item-link">
+                             <div class="cream-wrapper">
+                                  <img class="popular-item-img" src="./images/ball-cream.png" width="168" height="168"
                                     alt="Мороженое малиновое.">
-                                 </div>
-                                <h3 class="products-caption">Малинка</h3>
-                               </a>
-                                <p class="products-desc">Сливочное мороженое с малиновым джемом</p>
-                                   <div class="products-price-wrapper">
-                                      <span class="products-price"> 310 ₽/кг</span>
-                                         <a class="products-cart-icon" href="#">
-                                           <svg class="cart-icon" width="15" height="14" viewBox="0 0 15 14" fill="none"
-                                              xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Поместить в корзину.">
-                                             <path fill-rule="evenodd" clip-rule="evenodd"
-                                             d="M1.167.25a.667.667 0 1 0 0 1.333h1.77l.468 2.336a.664.664 0 0 0 .011.053l.967 4.833a1.826 1.826 0 0 0 1.819 1.47h5.62a1.826 1.826 0 0 0 1.819-1.47l.001-.005.927-4.861a.667.667 0 0 0-.655-.792H4.611L4.138.786A.667.667 0 0 0 3.484.25H1.167ZM5.69 8.544 4.878 4.48h8.23l-.775 4.067a.492.492 0 0 1-.492.395H6.183a.492.492 0 0 1-.492-.397Zm-1.134 3.961a1.246 1.246 0 1 1 2.492 0 1.246 1.246 0 0 1-2.492 0Zm6.374 0a1.246 1.246 0 1 1 2.491 0 1.246 1.246 0 0 1-2.491 0Z" />
-                                           </svg>
-                                         </a>
-                                     </div>
-                           </li>
-                        </div>
-                          <div class="popular-item-wrapper">
-                              <li class="products-list-item">
-                                  <a href="#" class="products-item-link">
-                                     <div class="product-img-wrapper">
-                                        <img class="product-item-img" src="./images/ball-pistachio.png" width="168" height="168" alt="Мороженое фисташковое.">
-                                     </div>
-                                     <h3 class="products-caption">Фисташка</h3>
-                                   </a>
-                                   <p class="products-desc">Фисташковый пломбир с кусочками шоколада</p>
-                                    <div class="products-price-wrapper">
-                                       <span class="products-price">340 ₽/кг</span>
-                                          <a class="products-cart-icon" href="#">
+                              </div>
+                                <h3 class="popular-caption">Малинка</h3>
+                            </a>
+                                <p class="popular-desc">Сливочное мороженое с малиновым джемом</p>
+                                    <div class="popular-price-wrapper">
+                                       <span class="popular-price"> 310 ₽/кг</span>
+                                           <a class="products-cart-icon" href="#">
                                              <svg class="cart-icon" width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Поместить в корзину.">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M1.167.25a.667.667 0 1 0 0 1.333h1.77l.468 2.336a.664.664 0 0 0 .011.053l.967 4.833a1.826 1.826 0 0 0 1.819 1.47h5.62a1.826 1.826 0 0 0 1.819-1.47l.001-.005.927-4.861a.667.667 0 0 0-.655-.792H4.611L4.138.786A.667.667 0 0 0 3.484.25H1.167ZM5.69 8.544 4.878 4.48h8.23l-.775 4.067a.492.492 0 0 1-.492.395H6.183a.492.492 0 0 1-.492-.397Zm-1.134 3.961a1.246 1.246 0 1 1 2.492 0 1.246 1.246 0 0 1-2.492 0Zm6.374 0a1.246 1.246 0 1 1 2.491 0 1.246 1.246 0 0 1-2.491 0Z" />
+                                             </svg>
+                                            </a>
+                                     </div>
+                         </li>
+                      <div class="popular-item-wrapper">
+                          <li class="popular-list-item">
+                               <a href="#" class="popular-item-link">
+                                  <img class="popular-item-img" src="./images/ball-pistachio.png" width="168" height="168" alt="Мороженое фисташковое.">
+                               </a>
+                               <h3 class="popular-caption">Фисташка</h3>
+                                <p class="popular-desc">Фисташковый пломбир с кусочками шоколада</p>
+                                    <div class="popular-price-wrapper">
+                                       <span class="popular-price">340 ₽/кг</span>
+                                          <a class="popular-cart-icon" href="#">
+                                             <svg class="popular-cart-icon" width="15" height="14" viewBox="0 0 15 14" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Поместить в корзину.">
                                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                                  d="M1.167.25a.667.667 0 1 0 0 1.333h1.77l.468 2.336a.664.664 0 0 0 .011.053l.967 4.833a1.826 1.826 0 0 0 1.819 1.47h5.62a1.826 1.826 0 0 0 1.819-1.47l.001-.005.927-4.861a.667.667 0 0 0-.655-.792H4.611L4.138.786A.667.667 0 0 0 3.484.25H1.167ZM5.69 8.544 4.878 4.48h8.23l-.775 4.067a.492.492 0 0 1-.492.395H6.183a.492.492 0 0 1-.492-.397Zm-1.134 3.961a1.246 1.246 0 1 1 2.492 0 1.246 1.246 0 0 1-2.492 0Zm6.374 0a1.246 1.246 0 1 1 2.491 0 1.246 1.246 0 0 1-2.491 0Z" />
@@ -365,54 +346,56 @@
                                            </a>
                                        </div>
                               </li>
-                          </div>
-                           <div class="popular-item-wrapper">
-                              <li class="products-list-item">
+                        </div>
+                        <div class="popular-item-wrapper">
+                             <li class="products-list-item">
                                   <a href="#" class="products-item-link">
-                                     <div class="product-img-wrapper">
-                                        <img src="./images/blueberries.png" width="168" height="168" alt="Черничное мороженое." class="product-item-img">
-                                      </div>
-                                      <h3 class="products-caption">Черника</h3>
-                                    </a>
-                                    <p class="products-desc">Крем-брюле
-                                      с черничным джемом</p>
-                                    <div class="products-price-wrapper">
-                                         <span class="products-price">330 ₽/кг</span>
+                                      <div class="product-img-wrapper">
+                                         <img src="./images/blueberries.png" width="168" height="168" alt="Черничное мороженое." class="product-item-img">
+                                        </div>
+                                         <h3 class="popular-caption">Черника</h3>
+                                     </a>
+                                      <p class="products-desc">Крем-брюле
+                                         с черничным джемом
+                                      </p>
+
+                                 <div class="products-price-wrapper">
+                                     <span class="products-price">330 ₽/кг</span>
                                           <a class="products-cart-icon" href="#">
-                                              <svg class="cart-icon" width="15" height="14" viewBox="0 0 15 14" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Поместить в корзину.">
+                                             <svg class="cart-icon" width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Поместить в корзину.">
                                                  <path fill-rule="evenodd" clip-rule="evenodd"
                                                  d="M1.167.25a.667.667 0 1 0 0 1.333h1.77l.468 2.336a.664.664 0 0 0 .011.053l.967 4.833a1.826 1.826 0 0 0 1.819 1.47h5.62a1.826 1.826 0 0 0 1.819-1.47l.001-.005.927-4.861a.667.667 0 0 0-.655-.792H4.611L4.138.786A.667.667 0 0 0 3.484.25H1.167ZM5.69 8.544 4.878 4.48h8.23l-.775 4.067a.492.492 0 0 1-.492.395H6.183a.492.492 0 0 1-.492-.397Zm-1.134 3.961a1.246 1.246 0 1 1 2.492 0 1.246 1.246 0 0 1-2.492 0Zm6.374 0a1.246 1.246 0 1 1 2.491 0 1.246 1.246 0 0 1-2.491 0Z" />
                                               </svg>
-                                          </a>
-                                      </div>
-                                </li>
-                            </div>
-                              <div class="popular-item-wrapper">
-                                  <li class="products-list-item">
-                                      <a href="#" class="products-item-link">
-                                        <div class="product-img-wrapper">
-                                           <img src="./images/babl-gam.png" alt="Мороженое со вкусом bubble-gum." width="168" height="168"
-                                              class="product-item-img">
-                                         </div>
-                                        <h3 class="products-caption">Бабл-гам</h3>
-                                     </a>
-                                      <p class="products-desc">Ванильный пломбир
-                                         со сладкой посыпкой</p>
-                                       <div class="products-price-wrapper">
-                                          <span class="products-price">320 ₽/кг</span>
-                                            <a class="products-cart-icon" href="#">
-                                               <svg class="cart-icon" width="15" height="14" viewBox="0 0 15 14" fill="none"
-                                                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Поместить в корзину.">
-                                                  <path fill-rule="evenodd" clip-rule="evenodd"
-                                                  d="M1.167.25a.667.667 0 1 0 0 1.333h1.77l.468 2.336a.664.664 0 0 0 .011.053l.967 4.833a1.826 1.826 0 0 0 1.819 1.47h5.62a1.826 1.826 0 0 0 1.819-1.47l.001-.005.927-4.861a.667.667 0 0 0-.655-.792H4.611L4.138.786A.667.667 0 0 0 3.484.25H1.167ZM5.69 8.544 4.878 4.48h8.23l-.775 4.067a.492.492 0 0 1-.492.395H6.183a.492.492 0 0 1-.492-.397Zm-1.134 3.961a1.246 1.246 0 1 1 2.492 0 1.246 1.246 0 0 1-2.492 0Zm6.374 0a1.246 1.246 0 1 1 2.491 0 1.246 1.246 0 0 1-2.491 0Z" />
-                                               </svg>
-                                             </a>
-                                         </div>
+                                           </a>
+                                    </div>
+                               </li>
+                         </div>
+                          <div class="popular-item-wrapper">
+                                   <li class="products-list-item">
+                                       <a href="#" class="products-item-link">
+                                           <div class="product-img-wrapper">
+                                             <img src="./images/babl-gam.png" alt="Мороженое со вкусом bubble-gum." width="168" height="168"
+                                               class="product-item-img">
+                                           </div>
+                                            <h3 class="popular-caption">Бабл-гам</h3>
+                                        </a>
+                                        <p class="products-desc">Ванильный пломбир
+                                           со сладкой посыпкой</p>
+                                         <div class="products-price-wrapper">
+                                              <span class="products-price">320 ₽/кг</span>
+                                                  <a class="products-cart-icon" href="#">
+                                                    <svg class="cart-icon" width="15" height="14" viewBox="0 0 15 14" fill="none"
+                                                      xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Поместить в корзину.">
+                                                      <path fill-rule="evenodd" clip-rule="evenodd"
+                                                       d="M1.167.25a.667.667 0 1 0 0 1.333h1.77l.468 2.336a.664.664 0 0 0 .011.053l.967 4.833a1.826 1.826 0 0 0 1.819 1.47h5.62a1.826 1.826 0 0 0 1.819-1.47l.001-.005.927-4.861a.667.667 0 0 0-.655-.792H4.611L4.138.786A.667.667 0 0 0 3.484.25H1.167ZM5.69 8.544 4.878 4.48h8.23l-.775 4.067a.492.492 0 0 1-.492.395H6.183a.492.492 0 0 1-.492-.397Zm-1.134 3.961a1.246 1.246 0 1 1 2.492 0 1.246 1.246 0 0 1-2.492 0Zm6.374 0a1.246 1.246 0 1 1 2.491 0 1.246 1.246 0 0 1-2.491 0Z" />
+                                                    </svg>
+                                                 </a>
+                                           </div>
                                      </li>
-                                  </div>
-                     </ul>
-                  </div>
+                           </div>
+                    </ul>
+                 </div>
                </section>
               <section class="production-about">
                 <div class="production-about-wrapper">
@@ -591,7 +574,7 @@
                        <a class="copyright" href="https://htmlacademy.ru/">
                           Сделано в <span class="copyright-text">.html academy</span> © 2021</a>
                      </div>
-                </div>
+            </div>
              </footer>
 
 <!-- <footer class="">
@@ -793,18 +776,7 @@
        </section>
 
 
-            <figure>
-            <figcaption>Фисташка</figcaption>
-              <p class="description-title">Фисташковый пломбир с кусочками шоколада</p>
-               <a class="cart-link" href="#">
-                 <b class="price">340 ₽/кг</b>
-                 <button class="add-to-cart" type="button" aria-label="button-cart">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32"><rect width="32" height="32" fill="#FF2F64" rx="16"/><path fill="#FCFCFC"
-                   fill-rule="evenodd" d="M9.17 9.25a.67.67 0 0 0 0 1.33h1.77l.47 2.34v.05l.97 4.84a1.83 1.83 0 0 0 1.82 1.46h5.62a1.83 1.83 0 0 0 1.82-1.46v-.01l.93-4.86a.67.67 0 0 0-.66-.8h-9.3l-.47-2.35a.67.67 0 0 0-.66-.54H9.17Zm4.52 8.3-.81-4.07h8.23l-.78 4.07a.5.5 0 0 1-.49.4H14.18a.5.5 0 0 1-.49-.4Zm-1.13 3.96a1.25 1.25 0 1 1 2.49 0 1.25 1.25 0 0 1-2.5 0Zm6.37 0a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0Z"
-                   clip-rule="evenodd"/></svg>
-                 </button>
-               </a>
-            </figure>
+
             <figure>
              <figcaption>Черника</figcaption>
                <p class="description-title">Крем-брюле
